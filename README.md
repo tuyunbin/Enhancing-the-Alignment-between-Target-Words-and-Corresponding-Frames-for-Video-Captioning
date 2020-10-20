@@ -1,6 +1,6 @@
 # Enhancing-the-Alignment-between-Target-Words-and-Corresponding-Frames-for-Video-Captioning
 
-This is the Theano code for our paper "Enhancing the Alignment between Target Words and Corresponding Frames for Video Captioning", which has been accepted for publication in Pattern Recognition. Tu, Yunbin, et al. [The version of pre-proof is available at](https://www.sciencedirect.com/science/article/pii/S0031320320305057) 
+This is the Theano code for our paper "Enhancing the Alignment between Target Words and Corresponding Frames for Video Captioning", which has been accepted for publication in Pattern Recognition. Tu, Yunbin, et al. [The version of pre-proof is available](https://www.sciencedirect.com/science/article/pii/S0031320320305057) 
 
 
 ## We illustrate the training details as follows:
@@ -18,7 +18,7 @@ Here, the folder data contains 8 pkl files needed to train and test the model.
 ### Dependencies
 Ubantu; Python 2.7; A Titan xp. The results may be differnt when using different GPUs.
 
-For Theano, I recommend you to install Theano via anaconda:
+For Theano, I recommend you to install it via anaconda:
 ```
 $ conda install theano pygpu
 ```
