@@ -18,7 +18,7 @@ Here, the folder data contains 8 pkl files needed to train and test the model.
 ### Dependencies
 Ubantu; Python 2.7; A Titan xp. The results may be differnt when using different GPUs.
 
-[Theano] I recommend you to install Theano via anaconda:
+For Theano, I recommend you to install Theano via anaconda:
 ```
 $ conda install theano pygpu
 ```
