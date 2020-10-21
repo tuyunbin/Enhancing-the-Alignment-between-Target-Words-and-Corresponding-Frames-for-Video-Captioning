@@ -33,7 +33,7 @@ Finally, you will also need to install [h5py](https://pypi.org/project/h5py/), s
 
 [The pre-processed MSVD dataset used in our paper are available at this link](https://drive.google.com/file/d/1LyfN6s8xKju-iad8M3OvaqFeoPT4aQV9/view?usp=sharing), [and there is the baidu cloud link.](https://pan.baidu.com/s/1o-RlsSaLlxYJHzkhhKwQxw)
 
-[The extracted ResNet-152 features on MSVD can be download at this link.](https://drive.google.com/file/d/15iEsdfPe1JwhEKlVjiunB8mj7B5BOOSh/view?usp=sharing)
+[The extracted concatenation of ResNet-152 and C3D features on MSVD can be download at this link.](https://drive.google.com/file/d/10z-64Eaj_lhLxbXJZoRJBgsvP4oNtrtl/view?usp=sharing)
 
 
 ### Train your own model
