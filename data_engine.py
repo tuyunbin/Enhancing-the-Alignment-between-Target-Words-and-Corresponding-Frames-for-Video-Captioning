@@ -37,7 +37,7 @@ class Movie2Caption(object):
         
     def _filter_resnet(self, vidID):
         # feat = self.FEAT[vidID]
-        f = h5py.File('/data/zhouc/tyb/MSVD/msvd_res152/%s.h5' % vidID, 'r')
+        f = h5py.File('/data/zhouc/tyb/MSVD/msvd_con/%s_con.h5' % vidID, 'r')
         feat = f[vidID][:].astype('float32')
         f.close()
         feat = self.get_sub_frames(feat)
@@ -218,7 +218,7 @@ class Movie2Caption(object):
         self.word_idict[1] = 'UNK'
         
         if self.video_feature == 'resnet152':
-            self.ctx_dim = 2048
+            self.ctx_dim = 4096
         else:
             raise NotImplementedError()
         self.kf_train = common.generate_minibatch_idx(
